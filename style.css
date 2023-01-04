@@ -101,6 +101,7 @@ body {
 
 .second-flex {
     display: flex;
+    justify-content: center;
 }
 
 .generic-box {
@@ -122,5 +123,69 @@ body {
     
 }
 
+.third-section {
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    height: 400px;
+    background-color: #e5e7eb;
+    justify-content: center;
+}
+
+.inspirational-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    
+}
+
+.author {
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 20px;
+    align-self: flex-end;
+    color: #1f2937;
+
+}
+
+.forth-section {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.ad-box {
+    display: flex;
+    background-color: #3882f6;
+    width: 80%;
+    border: 10px solid #3882f6;
+    border-radius: 8px;
+    justify-content: space-around;
+    align-items: center;
+}
+.ad-text,.ad-sign-up-box {
+    color: #f9faf8;
+   
+}
+.ad-sign-up-box {
+    text-align: center;
+    width: 100px;
+    font-weight: bolder;
+    border: 2px solid #f9faf8;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.fifth-section {
+    display: flex;
+    height: 100px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+}
 
 
